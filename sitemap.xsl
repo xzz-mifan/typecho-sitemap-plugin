@@ -91,7 +91,7 @@
                     </table>
                 </div>
                 <div id="footer">
-                    <a href="https://www.lmcc.top/" target="_blank">Lmcc</a>
+                    <a href="https://www.lmcc.top/" target="_blank">lmcc</a>
                 </div>
             </body>
         </html>
