@@ -9,7 +9,7 @@ define('__TYPECHO_PLUGIN_SITEMAP_VERSION__', '2.0.2');
  * @author     <strong style="color:#28B7FF;font-family: 楷体;">lmcc</strong>
  * @version    2.0.2
  * @dependence 17.10.30-*
- * @link       https://github.com/xzz-mifan/typecho-sitemap-plugin
+ * @link       https://www.lmcc.top/
  */
 class Sitemap_Plugin implements Typecho_Plugin_Interface
 {
