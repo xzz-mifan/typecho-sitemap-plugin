@@ -1,13 +1,13 @@
 <?php
 
-define('__TYPECHO_PLUGIN_SITEMAP_VERSION__', '2.0.3');
+define('__TYPECHO_PLUGIN_SITEMAP_VERSION__', '2.0.4');
 
 /**
  * <strong style="color:#28B7FF;font-family: 楷体;">生成Sitemap符合Google和百度标准</strong>
  *
  * @package    Sitemap
  * @author     <strong style="color:#28B7FF;font-family: 楷体;">lmcc</strong>
- * @version    2.0.3
+ * @version    2.0.4
  * @dependence 17.10.30-*
  * @link       https://www.lmcc.top/
  */
