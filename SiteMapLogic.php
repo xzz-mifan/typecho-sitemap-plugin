@@ -29,10 +29,10 @@ class SiteMapLogic
      */
     public function setNode($loc, $lastmod = null, $changefreq = 'always', $priority = 0.7)
     {
-        $lastmod     = $lastmod ?: time() - random_int(60, 360);
+        $lastmod     = $lastmod ?: time() - random_int(60, 600);
         $this->nodes .= "\t<url>\n" .
             "\t\t<loc>{$loc}</loc>\n" .
-            "\t\t<lastmod>" . date('Y-m-d\TH:i:s\Z', $lastmod) . "</lastmod>\n" .
+            "\t\t<lastmod>" . date('Y-m-d\TH:i:s', $lastmod) . "</lastmod>\n" .
             "\t\t<changefreq>{$changefreq}</changefreq>\n" .
             "\t\t<priority>{$priority}</priority>\n" .
             "\t</url>\n";
