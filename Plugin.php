@@ -111,10 +111,8 @@ class Sitemap_Plugin implements Typecho_Plugin_Interface
             if ($tag != __TYPECHO_PLUGIN_SITEMAP_VERSION__) {
                 echo '<a href="https://github.com/xzz-mifan/typecho-sitemap-plugin/releases">Sitemap插件有更新</a>';
                 return;
-            } else {
-                return;
             }
-
+            return;
         }
     }
 
